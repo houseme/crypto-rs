@@ -1,11 +1,11 @@
 [package]
-name = "crypt-rs"
+name = "crypto_rs"
 version = "0.1.0"
 authors = ["houseme <housemecn@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Common traits used by cryptographic algorithms. Users should generally use higher-level trait crates instead of this one."
-homepage = "https://github.com/houseme/crypt-rs"
-repository = "https://github.com/houseme/crypt-rs"
+homepage = "https://github.com/houseme/crypto-rs"
+repository = "https://github.com/houseme/crypto-rs"
 readme = "README.md"
 keywords = ["crypto", "rustcrypto", "cryptographic", "signature", "hash"]
 categories = ["cryptography", "algorithms","development-tools"]
