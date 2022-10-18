@@ -1,6 +1,6 @@
 /*!
 # Crypto-Rs
-MagicCrypt is a Java/PHP/NodeJS/Rust library to encrypt/decrpyt strings, files, or data, using Data Encryption Standard(DES) or Advanced Encryption Standard(AES) algorithms. It supports CBC block cipher mode, PKCS5 padding and 64, 128, 192 or 256-bits key length.
+Crypto-Rs is a Rust library to encrypt/decrpyt strings, files, or data, using Data Encryption Standard(DES) or Advanced Encryption Standard(AES) algorithms. It supports CBC block cipher mode, PKCS5 padding and 64, 128, 192 or 256-bits key length.
 ## For Rust
 ### Example
 ```rust
@@ -30,16 +30,10 @@ assert_eq!("http://magiclen.org", mc.decrypt_base64_to_string(&base64).unwrap())
 ## No Std
 Disable the default features to compile this crate without std.
 ```toml
-[dependencies.crypto_rs]
+[dependencies.crypto-rs]
 version = "*"
 default-features = false
 ```
-## For Java
-Refer to https://github.com/magiclen/MagicCrypt.
-## For PHP
-Refer to https://github.com/magiclen/MagicCrypt.
-## For NodeJS
-Refer to https://github.com/magiclen/node-magiccrypt
  */
 
 #![cfg_attr(not(feature = "std"), no_std)]

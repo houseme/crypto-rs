@@ -3,9 +3,9 @@ A general solution for commonly used crypt in rust, collection of cryptography-r
 
 
 [![Build](https://github.com/houseme/crypto-rs/workflows/Build/badge.svg)](https://github.com/houseme/crypto-rs/actions?query=workflow%3ABuild)
-[![crates.io](https://img.shields.io/crates/v/crypto_rs.svg)](https://crates.io/crates/crypto_rs)
-[![docs.rs](https://docs.rs/crypto_rs/badge.svg)](https://docs.rs/crypto_rs/)
-[![License](https://img.shields.io/crates/l/crypto_rs)](LICENSE-APACHE)
+[![crates.io](https://img.shields.io/crates/v/crypto-rs.svg)](https://crates.io/crates/crypto-rs)
+[![docs.rs](https://docs.rs/crypto-rs/badge.svg)](https://docs.rs/crypto-rs/)
+[![License](https://img.shields.io/crates/l/crypto-rs)](LICENSE-APACHE)
 
 This is a Rust implementation of the original [houseme/gocrypto](https://github.com/houseme/gocrypto), which is written in Go.
 
@@ -16,7 +16,7 @@ This is a Rust implementation of the original [houseme/gocrypto](https://github.
 Add the following to your `Cargo.toml`:
 ```toml
 [dependencies]
-crypto_rs = "0.1"
+crypto-rs = "0.1"
 ```
 
 ## Quickstart

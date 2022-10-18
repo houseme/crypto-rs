@@ -13,7 +13,7 @@ use crate::generic_array::ArrayLength;
 
 use crate::CryptoError;
 
-/// Methods for `MagicCrypt` and `MagicCrypt<bits>` structs.
+/// Methods for `Crypto` and `Crypto<bits>` structs.
 pub trait CryptoTrait {
     fn new<S: AsRef<str>, V: AsRef<str>>(key: S, iv: Option<V>) -> Self;
 
